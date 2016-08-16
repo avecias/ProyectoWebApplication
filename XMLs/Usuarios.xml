@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usuarios>
+  <usuario idUsuario="1">
+    <nombre>Nash</nombre>
+    <clave>avecias</clave>
+  </usuario>
+  <usuario idUsuario="2">
+    <nombre>Pedro</nombre>
+    <clave>picapiedra</clave>
+  </usuario>
+<usuario idUsuario="3">
+    <nombre>Pablo</nombre>
+    <clave>marmol</clave>
+  </usuario>
+</usuarios>

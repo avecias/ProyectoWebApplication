@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Pagina Inicio</title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/sticky-footer.css">
+        <link href="css/signin.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="btn-group" role="group" aria-label="...">
+                <a href="index.html" class="btn btn-info" role="button">Inicio</a>
+                <a href="cliente/lista.jsp" class="btn btn-info" role="button">Cliente</a>
+                <a href="distribuidor/lista.jsp" class="btn btn-info" role="button">Distribuidora</a>
+                <a href="auto/lista.jsp" class="btn btn-info" role="button">Auto</a>
+                <a href="compra/lista.jsp" class="btn btn-info" role="button">Compra</a>
+                <a href="venta/lista.jsp" class="btn btn-info" role="button">Venta</a>
+                <a href="salir.jsp" class="btn btn-info" role="button">Salir</a>
+                <!--<button type="button" class="btn btn-default">Salir</button>-->
+            </div>
+            <fieldset>
+                <form class="form-signin" action="login" method="post">
+                    <h2 class="form-signin-heading">Login de Usuario</h2>
+                    <input class="form-control" placeholder="Id Adminitrador" required="" autofocus="" type="text" name="txtId" title="Id requerido">
+                    <input class="form-control" placeholder="Clave" required="" autofocus="" type="password" name="txtClave" title="Id requerido">
+                    <label class="checkbox">
+                        <input value="remember-me" type="checkbox"> Remember me
+                    </label>
+                    <button class="btn btn-lg btn-primary btn-block" type="submit">Enviar</button>
+                </form>
+            </fieldset>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <p class="text-muted">Proyecto de Web Application.</p>
+            </div>
+        </footer>
+    </body>
+</html>
